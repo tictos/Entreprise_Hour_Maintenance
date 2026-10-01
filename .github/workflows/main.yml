@@ -31,10 +31,10 @@ jobs:
       - name: ⚙️ Configuration de Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: 📦 Installation des dépendances
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: 🔨 Construction du site (Build Vite)
         run: npm run build

@@ -7,13 +7,11 @@ on:
       - master
   workflow_dispatch:
 
-# Permissions requises pour déployer sur GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Permet d'annuler les déploiements concurrents en cours
 concurrency:
   group: 'pages'
   cancel-in-progress: true
@@ -34,7 +32,7 @@ jobs:
           node-version: 22
 
       - name: 📦 Installation des dépendances
-        run: npm install --legacy-peer-deps
+        run: npm install --force
 
       - name: 🔨 Construction du site (Build Vite)
         run: npm run build

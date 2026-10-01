@@ -1,3 +1,10 @@
+import heroPowerPlantImg from '../assets/images/hero_power_plant_1790778978530.jpg';
+import serviceTurbinesImg from '../assets/images/service_turbines_1790779119246.jpg';
+import serviceRenewablesImg from '../assets/images/service_renewables_1790779133350.jpg';
+import engineersMaintenanceImg from '../assets/images/engineers_maintenance_1790779146205.jpg';
+
+export { heroPowerPlantImg, serviceTurbinesImg, serviceRenewablesImg, engineersMaintenanceImg };
+
 export interface ServiceItem {
   id: string;
   title: string;
@@ -66,7 +73,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: "Expertise de pointe sur les turbines à gaz, moteurs diesel lourds et turboalternateurs industriels.",
     fullDesc: "Notre cœur de métier repose sur plus de 30 années d'intervention directe sur les centrales thermiques et installations de production d'énergie continue. Nous maîtrisons l'ensemble du cycle de vie des équipements majeurs de production.",
     category: "production",
-    image: "/src/assets/images/service_turbines_1790779119246.jpg",
+    image: serviceTurbinesImg,
     features: [
       "Révision majeure & reconditionnement de turbines à gaz",
       "Maintenance et calage de turboalternateurs de forte puissance",
@@ -97,7 +104,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: "Contrats de maintenance sur mesure, interventions d'urgence 24/7 et dépannage industriel complet.",
     fullDesc: "Pour maximiser la disponibilité opérationnelle de vos installations électromécaniques, nous proposons des contrats de maintenance préventive rigoureux ainsi qu'une force d'intervention rapide pour le dépannage d'urgence.",
     category: "maintenance",
-    image: "/src/assets/images/engineers_maintenance_1790779146205.jpg",
+    image: engineersMaintenanceImg,
     features: [
       "Programmes de maintenance préventive programmée (PMP)",
       "Intervention d'urgence & dépannage électromécanique 24/7",
@@ -113,7 +120,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: "Parcs solaires photovoltaïques, systèmes hybrides diesel-solaire et micro-réseaux isolés.",
     fullDesc: "Acteur engagé dans la transition énergétique et le développement communautaire, nous déployons des solutions solaires robustes adaptées aux conditions climatiques ouest-africaines et aux zones rurales hors réseau.",
     category: "renewable",
-    image: "/src/assets/images/service_renewables_1790779133350.jpg",
+    image: serviceRenewablesImg,
     features: [
       "Études de gisement solaire et dimensionnement d'installations photovoltaïques",
       "Hybridation de centrales thermiques existantes (Fuel Saver Solutions)",

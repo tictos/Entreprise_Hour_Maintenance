@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ShieldCheck, Flame, Cpu, Gauge, Clock, Phone, ChevronRight } from 'lucide-react';
-import { COMPANY_INFO } from '../data/companyData';
+import { COMPANY_INFO, heroPowerPlantImg } from '../data/companyData';
 import { getCompanyCurrentStatus, StatusInfo } from '../utils/scheduleHelper';
 
 interface HeroProps {
@@ -23,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal, onExploreServices 
       {/* Background Image Layer with Heavy Measured Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_power_plant_1790778978530.jpg"
+          src={heroPowerPlantImg}
           alt="Centrale thermique et turbines de production d'énergie - Groupe Hour Maintenance"
           className="w-full h-full object-cover object-center brightness-60 scale-105 transform animate-fade-in"
           referrerPolicy="no-referrer"

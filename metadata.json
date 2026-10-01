@@ -1,0 +1,6 @@
+{
+  "name": "Groupe Hour Maintenance - Énergie & Maintenance Industrielle Conakry",
+  "description": "Site vitrine officiel du Groupe Hour Maintenance (Hour Dépannage & Maintenance Industrielle) à Conakry, Guinée. Experts en centrales électriques, turbines à gaz, moteurs diesel, distribution et énergies renouvelables avec plus de 30 ans d'expérience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
